@@ -230,3 +230,35 @@ footer{
 	padding-top: 0.5%;
 	padding-bottom: 0.5%;
 }
+
+.navbar {
+  overflow: hidden;
+  background: #FFC8DD;
+  position: fixed;
+  top: 0;
+  margin-left: 80%;
+  margin-top: 2%;
+  border-right: 3px solid #707070;
+	
+	
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #707070;
+  text-align: center;
+  padding: 7px 10px;
+  text-decoration: none;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 30px;
+  border-top: 3px solid #707070;
+  border-bottom: 3px solid #707070;
+  border-left: 3px solid #707070;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
